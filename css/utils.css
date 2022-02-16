@@ -1,0 +1,15 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    width: 62px;
+height: 27px;
+background-color: black;
+border: 2px solid white;
+color: white;
+border-radius: 10% / 50%;
+
+}
