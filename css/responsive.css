@@ -1,0 +1,30 @@
+@media screen and (max-width:1000px){
+    body{
+        background-color: wheat;
+    }
+
+
+    nav{
+        flex-direction: column;
+    }
+
+
+    .logo{
+        justify-content: center;
+    }
+
+    .slider{
+        width: 75vh;
+        height: 45vh;
+    }
+
+    nav ul{
+        justify-content: center;
+        height: 29px;
+    }
+    .search{
+        justify-content: centre;
+        margin: 0;
+    }
+    
+}
