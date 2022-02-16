@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Redressed&family=Shizuru&display=swap');
 
 :root{
     --main-bg-color: black;
@@ -77,14 +77,42 @@ margin: 12px auto;
 } 
 
 .card{
-    background-color: aqua;
-   
-    max-width: 90vw;
+    background-color: black;
+    color: white;
+    border: 2px solid black;   
+    max-width: 80vw;
+    margin: auto;
+    font-family: 'Akaya Telivigala', cursive;
 
 }
-.card h2{
-    font-family: 'Shizuru', cursive;
+
+.cards{
+    display: flex;  
+    flex-direction: row;
+   justify-content: center;
 }
+
+.card h2{
+    
+    /* font-family: 'Shizuru', cursive; */
+    font-family: 'Redressed', cursive;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+    
+}
+
+.card-item img:hover{
+    width: 166;
+    height: 166;
+
+}
+
+
 
 footer{
     height: 10vh;
